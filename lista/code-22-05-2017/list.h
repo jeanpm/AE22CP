@@ -96,6 +96,8 @@ void printLista(Lista* l);
 
 void freeLista(Lista* l);
 
+bool verificarPalindromo(Lista* l);
+
 
 
 

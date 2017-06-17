@@ -1,0 +1,10 @@
+0	1757660	Douglas-Ramos-De-Sousa-Felix
+1	1771671	Bruna-Carolina-Andrade
+2	1882872	Alfredo-Savi-Ciuccio
+3	1495712	Dieyson-Ruthes
+4	1826670	Emanuel-Kozerski
+5	1374095	Carolina-Rothe-Mayer
+6	1543296	Andre-Felipe-Shimizu-Volpato
+7	1492446	Felipe-Ritter-Mascarenhas
+8	1756818	Erikson-Augusto-Melz
+9	1368109	Diogo-Felini-Tondo

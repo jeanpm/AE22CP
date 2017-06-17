@@ -1,0 +1,50 @@
+0	-1	
+1	-1	
+2	-1	
+3	1882953	Henrique-Moschetta-Santos
+4	1883003	Joao-Gabriel-Bortot-Cadore
+5	-1	
+6	-1	
+7	-1	
+8	-1	
+9	1368109	Diogo-Felini-Tondo
+10	1757660	Douglas-Ramos-De-Sousa-Felix
+11	-1	
+12	1495712	Dieyson-Ruthes
+13	1553313	Giovani-Henrique-Sobral-De-Oliveira
+14	-1	
+15	-1	
+16	-1	
+17	-1	
+18	1756818	Erikson-Augusto-Melz
+19	1649868	Lauro-Riboli-Saraiva
+20	1826670	Emanuel-Kozerski
+21	1771671	Bruna-Carolina-Andrade
+22	1882872	Alfredo-Savi-Ciuccio
+23	1883020	Leonardo-Marin-Da-Silva
+24	-1	
+25	-1	
+26	-1	
+27	-1	
+28	-1	
+29	1882929	Guilherme-Da-Cunha-Manasses
+30	-1	
+31	-1	
+32	-1	
+33	-1	
+34	1756834	Geferson-Artuzo
+35	-1	
+36	-1	
+37	-1	
+38	-1	
+39	-1	
+40	-1	
+41	-1	
+42	1377892	Maria-Julia-Delavi-De-Souza
+43	-1	
+44	-1	
+45	1374095	Carolina-Rothe-Mayer
+46	1543296	Andre-Felipe-Shimizu-Volpato
+47	1492446	Felipe-Ritter-Mascarenhas
+48	1882945	Gustavo-Rodrigues-Pilotti
+49	1756397	Priscila-Leticia-Ammon

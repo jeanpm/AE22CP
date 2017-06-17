@@ -1,23 +1,79 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
+#include <assert.h>
+#include <time.h>
 #include "list.h"
+
+int teste(Lista* A, Lista* B)
+{
+	A = B;
+}
 
 int main(int argc, char** argv)
 {
-	Lista* l = novaLista();
-	
-	inserirInicio(l, novoItem(0));
-	inserirFim(l, novoItem(1));
-	
-	for (int i = 2; i < 1000; ++i)
-		inserirNaPosicao(l, novoItem(i), rand() % l->tamanho);
+	srand(time(NULL));
+	assert(argc == 2);
+	int pos = atoi(argv[1]);
 
-	printLista(l);
+	Lista* A = novaLista();
+	Lista* B = novaLista();
+
+	int lsize = 5;
+	for (int i = 0; i < lsize; ++i)
+	{
+		inserirInicio(A, novoItem(1));
+		inserirInicio(B, novoItem(8));
+	}
+
+	Lista* t = novaLista();
+printLista(t);
 	
-	while (l->tamanho > 0)
-		free(removerDaPosicao(l, rand() % l->tamanho));
+	printLista(A);
+	printLista(B);
+
+	inserirListaNaPosicao(A, B, pos);
 	
-	freeLista(l);
-	free(l);
+//	crossoverNpontos(A, B, 3);
+
+	printf("Tamanho de A: %d\n", A->tamanho);	
+	printf("Tamanho de B: %d\n", B->tamanho);
+
+	teste(A,B);
+	printf("Tamanho de A: %d\n", A->tamanho);	
+	printf("Tamanho de B: %d\n", B->tamanho);
+	
+	printLista(A);
+	printLista(B);
+	
+	freeLista(A);
+//	freeLista(B);
+	
+	free(A);
+	free(B);
 }
+
+/*
+1	1	1	1	1
+8	8	8	8	8
+
+2
+
+1	1	8	8	8
+8	8	1	1	1
+
+
+3
+
+1	1	8	1	1
+8	8	1	8	8
+
+
+2, 3 
+
+1	1	8	1	1
+8	8	1	8	8
+
+
+
+*/

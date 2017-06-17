@@ -81,6 +81,7 @@ void inserirProximo(Lista* l, Item* atual, Item* novo)
 }
 
 
+
 void inserirFim(Lista* l, Item* novo)
 {
 	// Se lista vazia
@@ -140,15 +141,10 @@ Item* removerInicio(Lista* l)
 
 Item* removerProximo(Lista* l, Item* anterior)
 {
-	assert(anterior->prox->prox != NULL);
-	
-	Item* removed = anterior->prox;
-	removed->prox->ant = anterior;
-	anterior->prox = removed->prox;
-	
-	l->tamanho--;
-	
-	return removed;
+	// IMPLEMENTAR
+	fprintf(stderr, "removerDaPosicao(Lista* l, int pos) - não implementada\n");
+	exit(-1);
+	return NULL;
 }
 
 Item* removerFim(Lista* l)
@@ -225,5 +221,12 @@ void freeLista(Lista* l)
 {
 	// IMPLEMENTAR
 	fprintf(stderr, "freeLista(Lista* l) - não implementada\n");
+}
+
+bool verificarPalindromo(Lista* l)
+{
+	// IMPLEMENTAR
+	fprintf(stderr, "verificarPalindromo(Lista* l) - não implementada\n");
+	exit(-1);
 }
 

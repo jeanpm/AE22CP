@@ -28,14 +28,14 @@ Item* novoItem(int value)
 	return i;
 }
 
-
+/*
 Item* ponteiroParaPosicao(Lista* l, int pos)
 {
 	Item* curr = l->inicio;
 	for (int i = 0; i < pos - 1; ++i)
 		curr = curr->prox;
 	return curr;
-}
+}*/
 
 
 Item* ponteiroParaPosicao(Lista* l, int pos)
@@ -217,13 +217,17 @@ Item* removerDaPosicao(Lista* l, int pos)
 
 void printLista(Lista* l)
 {
-	Item* curr = l->inicio;
-	while(curr != NULL)
+	if (l->inicio != NULL)
 	{
-		fprintf(stderr, "%d\t", curr->valor); 
-		curr = curr->prox;
+		Item* curr = l->inicio;
+		while(curr != l->fim)
+		{
+			fprintf(stderr, "%d", curr->valor); 
+			curr = curr->prox;
+		}
+		fprintf(stderr, "%d", curr->valor); 
+		fprintf(stderr, "\n");
 	}
-	fprintf(stderr, "\n");
 }
 
 
@@ -248,6 +252,127 @@ void reverterLista(Lista* lista)
 void freeLista(Lista* l)
 {
 	while (l->inicio != NULL)
-		free(removerDaPosicao(l, 0));
+		free(removerInicio(l));
 }
+
+/*
+ Insere a lista B no inicio da lista A. 
+*/
+void inserirListaInicio(Lista* A, Lista* B)
+{
+	assert(B->inicio != NULL);
+	
+	if (A->tamanho == 0) {
+		A->inicio = B->inicio;
+		A->fim = B->fim;
+		A->tamanho = B->tamanho;
+	} else {	
+		A->inicio->ant = B->fim;
+		B->fim->prox = A->inicio;
+
+		A->inicio = B->inicio;
+	
+		A->tamanho += B->tamanho;
+	}
+}
+
+
+/*
+ Insere a lista B no fim da lista A. 
+*/
+void inserirListaFim(Lista* A, Lista* B)
+{
+	assert(B->inicio != NULL);
+	
+	if (A->tamanho == 0) {
+		A->inicio = B->inicio;
+		A->fim = B->fim;
+		A->tamanho = B->tamanho;
+	} else {
+
+		A->fim->prox = B->inicio;
+		B->inicio->ant = A->fim;
+	
+		A->fim = B->fim;
+	
+		A->tamanho += B->tamanho;
+	}
+
+}
+
+/*
+ Insere a lista B após o item 'atual' da lista A.
+*/
+void inserirListaAposAtual(Lista* A, Lista* B, Item* atual)
+{
+	assert(A->inicio != NULL && B->inicio != NULL);
+	
+	Item* A2 = atual->prox;
+		
+	atual->prox = B->inicio;
+	B->inicio->ant = atual;
+	
+	B->fim->prox = A2;
+	A2->ant = B->fim;
+		
+	A->tamanho += B->tamanho;
+}
+
+
+/*
+ Insere a lista B em A, na posição especificada. Ao final desta função A e B apontam para os mesmos itens em uma lista. Assim, somente uma dessas listas deve ser usada para liberar a memória dos itens. 
+*/
+void inserirListaNaPosicao(Lista* A, Lista* B, int pos)
+{
+	assert(pos >=0 && pos <= A->tamanho);
+	assert(B->inicio != NULL);
+	
+	if (pos == 0) 
+		inserirListaInicio(A, B);
+	else if (pos == A->tamanho)
+		inserirListaFim(A, B);
+	else {
+		Item* atual = ponteiroParaPosicao(A, pos);
+		inserirListaAposAtual(A, B, atual);
+	}
+}
+
+void crossover(Lista* A, Lista* B, int pos)
+{
+	assert(pos > 0 && pos < A->tamanho -1);
+
+	// primeiro ponto de crossover
+	Item* pontoA = ponteiroParaPosicao(A, pos);
+	Item* pontoB = ponteiroParaPosicao(B, pos);
+
+	Item* pontoAprox = pontoA->prox;
+	Item* pontoBprox = pontoB->prox;
+	
+	pontoA->prox = pontoBprox;
+	pontoB->prox = pontoAprox;
+	
+	pontoBprox->ant = pontoA;
+	pontoAprox->ant = pontoB;
+	
+	Item* aFim = A->fim;
+	A->fim = B->fim;
+	B->fim = aFim;
+}
+
+void crossoverNpontos(Lista* A, Lista* B, int n)
+{
+	for (int i = 0; i < n; ++i)
+	{
+		// posição aleatória de 1 a tamanho -1 - i
+		int randompos = 1 + rand() % (A->tamanho - 2);
+		fprintf(stderr, "\n%d\n", randompos);
+			
+		crossover(A, B, randompos);
+		
+		printLista(A);
+		printLista(B);
+	}
+}
+
+
 

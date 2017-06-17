@@ -169,7 +169,20 @@ removido, e não o item anterior.
 --------------------------------------------------------------------------------
 AULA TEÓRICA (22/05/2017)
 				   http://paginapessoal.utfpr.edu.br/jeanmartins
-				   https://goo.gl/jxIq7t
+				   
+				   
+Baixar os arquivos em:  https://goo.gl/jxIq7t
+	. list.h
+	. dlist.c
+	. testaLista.c
+	
+Implementar as funções em dlist.c que ainda não estejam implementadas .
+
+	. Item* removerProximo(Lista* l, Item* anterior)
+	
+	. Item* ponteiroParaPosicao(Lista* l, int pos)
+	
+	. Item* removerDaPosicao(Lista* l, int pos)
 --------------------------------------------------------------------------------
 
 + Relembrar o que foi feito na última aula:

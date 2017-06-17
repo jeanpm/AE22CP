@@ -1,0 +1,233 @@
+0	-1	
+1	-1	
+2	-1	
+3	-1	
+4	-1	
+5	-1	
+6	1756826	Gabriel-Henrique-De-Alencar-Mortari
+7	-1	
+8	-1	
+9	-1	
+10	-1	
+11	-1	
+12	-1	
+13	-1	
+14	1756834	Geferson-Artuzo
+15	-1	
+16	-1	
+17	-1	
+18	-1	
+19	-1	
+20	-1	
+21	-1	
+22	1756842	Rodrigo-Izidoro-Padilha
+23	1494252	Felipe-Holek-Damasceno
+24	1436236	Luan-Acacio-Lamarca-Oliveira
+25	-1	
+26	-1	
+27	-1	
+28	-1	
+29	-1	
+30	-1	
+31	-1	
+32	-1	
+33	-1	
+34	-1	
+35	-1	
+36	-1	
+37	1882910	Geovany-Aparecido-Duarte-Cancio
+38	1436716	Anderson-Da-Silva-Tenorio
+39	-1	
+40	-1	
+41	-1	
+42	-1	
+43	1756397	Priscila-Leticia-Ammon
+44	-1	
+45	-1	
+46	1756400	Victor-Cerqueira-Barros
+47	1703510	Gabriel-Roberto-Pendiuk
+48	-1	
+49	-1	
+50	-1	
+51	-1	
+52	-1	
+53	-1	
+54	-1	
+55	-1	
+56	1882929	Guilherme-Da-Cunha-Manasses
+57	-1	
+58	-1	
+59	-1	
+60	-1	
+61	-1	
+62	1690477	Marcus-Vinicius-Viechnieski
+63	-1	
+64	1882937	Guilherme-Vicenzi-Suzin
+65	-1	
+66	-1	
+67	-1	
+68	-1	
+69	-1	
+70	1690485	Rafael-De-Miranda-Batista
+71	-1	
+72	1882945	Gustavo-Rodrigues-Pilotti
+73	1809784	Luan-Escudeiro-Dos-Santos-Almeida
+74	-1	
+75	-1	
+76	-1	
+77	-1	
+78	-1	
+79	-1	
+80	1882953	Henrique-Moschetta-Santos
+81	1492446	Felipe-Ritter-Mascarenhas
+82	-1	
+83	-1	
+84	-1	
+85	1495712	Dieyson-Ruthes
+86	-1	
+87	-1	
+88	-1	
+89	1637380	Willian-Ricardo-Santos-Enderli
+90	-1	
+91	-1	
+92	-1	
+93	-1	
+94	1374095	Carolina-Rothe-Mayer
+95	-1	
+96	-1	
+97	1368273	Joao-Vitor-Ildebrando-Faggion
+98	-1	
+99	-1	
+100	-1	
+101	-1	
+102	-1	
+103	-1	
+104	1494333	Vinicius-Arantes-De-Souza
+105	-1	
+106	-1	
+107	-1	
+108	-1	
+109	-1	
+110	-1	
+111	-1	
+112	-1	
+113	-1	
+114	-1	
+115	-1	
+116	1703579	Thomas-Jefferson-Dos-Santos-Marinho
+117	-1	
+118	-1	
+119	-1	
+120	-1	
+121	-1	
+122	-1	
+123	1146017	Bruno-Marcelo-Walter-Szura
+124	-1	
+125	-1	
+126	-1	
+127	1436805	Rhuan-Victor-Santos-Lopes
+128	-1	
+129	-1	
+130	1883003	Joao-Gabriel-Bortot-Cadore
+131	-1	
+132	-1	
+133	-1	
+134	-1	
+135	1553313	Giovani-Henrique-Sobral-De-Oliveira
+136	-1	
+137	1543296	Andre-Felipe-Shimizu-Volpato
+138	-1	
+139	-1	
+140	-1	
+141	1757660	Douglas-Ramos-De-Sousa-Felix
+142	-1	
+143	-1	
+144	-1	
+145	-1	
+146	-1	
+147	1883020	Leonardo-Marin-Da-Silva
+148	-1	
+149	-1	
+150	-1	
+151	-1	
+152	-1	
+153	1542613	Andre-Luis-Da-Silva-Lazarini
+154	1809865	Rhuan-Lopes-Assis
+155	-1	
+156	-1	
+157	-1	
+158	-1	
+159	-1	
+160	-1	
+161	-1	
+162	-1	
+163	1377892	Maria-Julia-Delavi-De-Souza
+164	-1	
+165	-1	
+166	1368109	Diogo-Felini-Tondo
+167	-1	
+168	-1	
+169	-1	
+170	-1	
+171	-1	
+172	1771671	Bruna-Carolina-Andrade
+173	1426133	Anderson-Calebe-Rodrigues-Mendes
+174	1500228	Guilherme-Viaceli
+175	-1	
+176	-1	
+177	-1	
+178	-1	
+179	1811754	Patrick-De-Souza-Sagioratto
+180	-1	
+181	1883054	Rozimery-Ferreira
+182	1771680	Diego-Kenji-Tomioka-De-Oliveira
+183	1826670	Emanuel-Kozerski
+184	-1	
+185	-1	
+186	-1	
+187	-1	
+188	-1	
+189	-1	
+190	-1	
+191	1690140	Ricardo-Augusto-Zoletti-Da-Silva
+192	-1	
+193	-1	
+194	-1	
+195	1811770	Rafael-Antonio-Suemitsu
+196	1836935	Bruno-Gollo-Kupkowski
+197	-1	
+198	1881906	Cacio-Jose-Gazola
+199	-1	
+200	-1	
+201	1544292	Kathleen-Karoline-Kemer-Silva
+202	-1	
+203	-1	
+204	-1	
+205	-1	
+206	-1	
+207	-1	
+208	-1	
+209	-1	
+210	-1	
+211	-1	
+212	-1	
+213	-1	
+214	-1	
+215	-1	
+216	-1	
+217	-1	
+218	-1	
+219	-1	
+220	-1	
+221	-1	
+222	-1	
+223	-1	
+224	-1	
+225	-1	
+226	-1	
+227	-1	
+228	1649868	Lauro-Riboli-Saraiva
+229	-1	
+230	-1	
+231	1756818	Erikson-Augusto-Melz
+232	1882872	Alfredo-Savi-Ciuccio

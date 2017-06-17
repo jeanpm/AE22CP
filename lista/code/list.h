@@ -5,8 +5,8 @@ typedef struct _Lista Lista;
 struct _Item
 {
 	int valor;
-	struct _Item* prox;
-	struct _Item* ant;
+	Item* prox;
+	Item* ant;
 };
 
 
@@ -45,6 +45,8 @@ void inserirProximo(Lista* l, Item* atual, Item* novo);
 void inserirFim(Lista* l, Item* novo);
 
 void inserirNaPosicao(Lista* l, Item* novo, int pos);
+
+void inserirListaNaPosicao(Lista* A, Lista* B, int pos);
 //------------------------------------------------------------------------------
 
 
@@ -95,6 +97,8 @@ void reverterLista(Lista* l);
 void printLista(Lista* l);
 
 void freeLista(Lista* l);
+
+void crossoverNpontos(Lista* A, Lista* B, int n);
 
 
 
